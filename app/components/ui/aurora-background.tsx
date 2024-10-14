@@ -194,7 +194,7 @@ export const AuroraBackground = ({
         </div>
         
         <p className="text-lg sm:text-xl font-semibold mt-4 sm:mt-8 px-4 sm:px-0 text-center">
-          Hi! I'm Vedant Patel, A Software Developer based in India
+          Hi! I&apos;m Vedant Patel, A Software Developer based in India
         </p>
 
         {/* Scroll Down Arrow */}
