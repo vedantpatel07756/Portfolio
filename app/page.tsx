@@ -16,7 +16,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThumbsUp} from '@fortawesome/free-solid-svg-icons';
 import { faInstagramSquare,faGithubSquare,faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { LinkPreview } from "./components/ui/link-preview";
-// import Model from "./components/resend/Model";
+import Model from "./components/resend/Model";
 import Skill from "./components/SkillsSet/Skill";
 import { PinContainer } from "./components/ui/3d-pin";
 
@@ -125,7 +125,7 @@ export default function Home() {
 
       {/* MODEL EmAIL  */}
 
-      {/* {modelstatus?<Model setModelStatus={showModel} />: <div></div>} */}
+      {modelstatus?<Model setModelStatus={showModel} />: <div></div>}
       {/* MODEL EmAIL  */}
 
       {/* Footer  */}
