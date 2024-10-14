@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Label } from "../ui/label";
 import { Input } from "../ui/input";
 import { cn } from "@/lib/utils";
-import { POST } from "../../api/route";
+// import { POST } from "../../api/route";
 
 interface SignupFormDemoProps {
   setStatus: (status: boolean) => void;  // Typing the setStatus function
@@ -21,7 +21,7 @@ export const SignupFormDemo: React.FC<SignupFormDemoProps> = ({ setStatus }) => 
     e.preventDefault();
     
     // Call the POST function with form data
-    await POST({ firstName, lastName, email, description });
+    // await POST({ firstName, lastName, email, description });
    
     setStatus(false);  // Close the modal after form submission
   };

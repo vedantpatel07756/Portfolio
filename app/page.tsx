@@ -54,7 +54,7 @@ export default function Home() {
    <main className=" overflow-x-clip">
     <FloatingNav navItems={navItems}/>
     <div id="Home">
-      <AuroraBackground children=" " className=" " / >
+      <AuroraBackground  className=" " / >
         
     </div>
     

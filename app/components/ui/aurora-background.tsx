@@ -144,13 +144,13 @@ import React, { ReactNode } from "react";
 
 
 interface AuroraBackgroundProps extends React.HTMLProps<HTMLDivElement> {
-  children: ReactNode;
+  // children: ReactNode;
   showRadialGradient?: boolean;
 }
 
 export const AuroraBackground = ({
   className,
-  children,
+
   showRadialGradient = true,
   ...props
 }: AuroraBackgroundProps) => {
