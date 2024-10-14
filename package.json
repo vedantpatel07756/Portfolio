@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "fortawesome": "^0.0.1-security",
     "framer-motion": "^11.11.8",
     "next": "14.2.6",
+    "qss": "^3.0.0",
+    "radix-ui": "^1.0.1",
     "react": "^18",
     "react-dom": "^18",
     "react-label": "^0.0.6",
-    "resend": "^4.0.0"
+    "resend": "^4.0.0",
+    "tabler": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
